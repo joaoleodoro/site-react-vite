@@ -1,0 +1,262 @@
+.sobre_1 {
+    width: 100%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
+
+.sobre_1 figure {
+    display: flex;
+    gap: 80px;
+}
+
+.sobre_1 img{
+    height: 469px;
+}
+
+.sobre_1 h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 74px;
+    text-align: left;
+
+}
+
+.sobre_1 p {
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.65px;
+    text-align: left;
+
+}
+
+.btn {
+    margin-top: 32px;
+    font-size: 22px;
+    font-weight: 500;
+    width: 297px;
+    height: 66px;
+    border-radius: 40px;
+    background-color: #333333;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+.btn:hover {
+    background-color: #616161;
+}
+
+.sobre_2 {
+    width: 100%;
+    background-color: #F4F2F2;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom:100px;
+}
+
+.sobre_2 h1 {
+    font-size: 28px;
+}
+
+.planos {
+    display: flex;
+    gap: 40px;
+    padding-top: 40px;
+}
+
+.plano_1_top {
+    background-color: #6975E8;
+    border-radius: 35px 35px 0px 0px;
+    border-bottom: 1px solid rgb(205, 205, 205);
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.sobre_2 h2 {
+    font-size: 15px;
+}
+
+.plano_1 {
+    background-color: white;
+    width: 240px;
+    height: 389px;
+    border-radius: 35px 35px 0px 0px;
+    box-shadow: 1px 1px 1px #d4d3d3;
+    display: flex;
+    flex-direction: column;
+}
+
+.plano_1 p {
+    font-size: 12px;
+    color: #8790A3;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+select {
+    width: 225px;
+    height: 32px;
+    border-radius: 30px;
+    border-color: #c7c7c7;
+    box-shadow: 3px 3px 3px #e3e3e3;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.seletor {
+    display: flex;
+    justify-content: center;
+    
+    padding: 10px;
+}
+
+.botao_sobre_1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 175px;
+    
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    height: 34px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+.botao_1 {
+    background-color: #6975E8;
+    color: white;
+    border: none;
+
+}
+
+.botao_1:hover {
+    background-color: #8f99ec;
+}
+
+
+
+.plano_2_top {
+    background-color: #ffffff;
+    border-radius: 35px 35px 0px 0px;
+    border-bottom: 1px solid rgb(205, 205, 205);
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.plano_2 {
+    background-color: white;
+    width: 240px;
+    height: 389px;
+    border-radius: 35px 35px 0px 0px;
+    box-shadow: 1px 1px 1px #d4d3d3;
+    display: flex;
+    flex-direction: column;
+}
+
+.plano_2 p {
+    font-size: 12px;
+    color: #8790A3;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.seletor {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.botao_sobre_2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 86px;
+    
+}
+
+.botao_2 {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-color: #dddddd;
+
+}
+
+.botao_2:hover {
+    background-color: #f8f6f6;
+}
+
+
+
+
+.sobre_2 figure {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.plano_3_top {
+    background-color: #ffffff;
+    border-radius: 35px 35px 0px 0px;
+    border-bottom: 1px solid rgb(205, 205, 205);
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.plano_3 {
+    background-color: white;
+    width: 240px;
+    height: 389px;
+    border-radius: 35px 35px 0px 0px;
+    box-shadow: 1px 1px 1px #d4d3d3;
+    display: flex;
+    flex-direction: column;
+}
+
+.botao_sobre_3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 77px;
+    
+}
+
+.botao_3 {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-color: #dddddd;
+
+}
+
+.botao_3:hover {
+    background-color: #f8f6f6;
+}

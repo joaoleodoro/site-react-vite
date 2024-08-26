@@ -1,0 +1,97 @@
+.contato {
+    width: 100%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 200px;
+}
+
+
+.elementos_1 h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 74px;
+    text-align: left;
+
+}
+
+.links {
+    padding-top: 30px;
+}
+
+#vertical {
+    height: 470px;
+    border-right: 2px solid #B9B7B7;
+}
+
+.caixas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    font-size: 28px;
+    width: 510px;
+
+}
+
+input {
+    border-radius: 30px;
+    border: 1px solid #B9B7B7;
+    box-shadow: 1px 2px 1px #e5e5e5;
+}
+
+.input1 {
+    width: 391px;
+}
+
+.input2 {
+    width: 391px;
+}
+
+.input3 {
+    width: 507px;
+    height: 229px;
+}
+
+.caixa1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.caixa2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.caixa3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.bt {
+    display: flex;
+    width: 510px;
+    justify-content: flex-end;
+}
+
+button {
+    background-color: #6975E8;
+    color: white;
+    width: 225px;
+    height: 34px;
+    border-radius: 6px;
+    border: 1px solid #B9B7B7;
+    box-shadow: 1px 2px 1px #e5e5e5;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8891e6;
+}
